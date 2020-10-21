@@ -1,0 +1,51 @@
+body1 {
+	background-image: url("img/bg tenis.jpg");
+	background-repeat: no-repeat;
+}
+
+.title {	
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #ffff00;
+	font-size: 3em;
+	color: #800080;
+}
+
+.div1 {
+	border-radius: 50%;
+	height: 300px;
+	position: fixed;
+	bottom: 200;
+	left: 415px;
+	width: 400px;
+	border: 3px solid;
+	border-color: #ffff00;
+	background-color: #800080;
+}
+
+.div2 {
+	position: fixed;
+	bottom: 170px;
+	left: 420px;
+	width: 400px;
+}
+
+.button {
+	border-radius: 20%;
+	border: 2px solid #4CAF50;
+	font-size: 20px;
+}
+
+.button2 {
+	background-color: #4CAF50;
+	font-size: 12px;
+	border-radius: 12px;
+}
+
+.img1 {
+	border-radius: 50%;
+	max-width: 200px;
+}
+
+.img2 {
+	right: 500px;
+}

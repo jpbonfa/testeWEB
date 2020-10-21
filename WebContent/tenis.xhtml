@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<link href="css/estilo.css" rel="stylesheet"></link>
+	<script type="text/javascript" src="js/mascara.js"></script>
+	<script type="text/javascript" src="js/navegacao.js"></script>
+</h:head>
+<body class="body1" >
+	<form action="gravaTenis">
+		<div align="center">
+			<img class="img2" src="img/cooltext365019166815390.png" />
+		</div>
+		<div class="div1" align="center">
+			<br />Modelo:&nbsp; <input type="text" size="10px" name="modelo" /><br />
+			<br /> Numeração:&nbsp; <input type="text" size="3px"
+				name="numeracao" onkeyup="masc_numero(this)" /><br /> <br />
+			Disponivel:<input type="radio" size="5px" name="disponivel" value="S" />SIM
+			&nbsp; <input type="radio" size="5px" name="disponivel" value="N" />NÃO
+			<br /> <br /> Marca:&nbsp; <input type="text" size="10px"
+				name="marca" /><br /> <br /> Valor:&nbsp; <input type="text"
+				size="10px" name="valor" onkeyup="masc_moeda(this)" />
+		</div>
+		<div class="div2" align="center">
+			&nbsp;&nbsp;&nbsp;<input class="button2" type="submit" value="SALVAR" />&nbsp;
+			<input class="button2" type="reset" value="CANCELAR" />
+			&nbsp;&nbsp;&nbsp;<br /><br />
+			<button class="button2" type="button" onclick="index()">VOLTAR</button>
+		</div>
+	</form>
+</body>
+</html>
